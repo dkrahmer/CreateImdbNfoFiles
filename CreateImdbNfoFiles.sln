@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateImdbNfoFiles", "CreateImdbNfoFiles\CreateImdbNfoFiles.csproj", "{5379F194-730E-46FB-999F-A73D587947B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA03ED87-A5EC-456E-BFDD-EA09F0C9F6A8}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5379F194-730E-46FB-999F-A73D587947B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5379F194-730E-46FB-999F-A73D587947B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5379F194-730E-46FB-999F-A73D587947B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5379F194-730E-46FB-999F-A73D587947B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84F57E77-3AFC-49BF-9A0C-8EF6D30815CC}
+	EndGlobalSection
+EndGlobal

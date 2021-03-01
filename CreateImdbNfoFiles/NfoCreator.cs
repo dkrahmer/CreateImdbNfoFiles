@@ -46,7 +46,7 @@ namespace CreateImdbNfoFiles
 
 			if (File.Exists(nfoFilePath))
 			{
-				string firstLine = File.ReadLines(nfoFilePath).First();
+				string firstLine = File.ReadLines(nfoFilePath)?.FirstOrDefault();
 				if (firstLine?.Contains(BASE_IMDB_URL) ?? false)
 				{
 					return; // NFO file already exists with IMDB URL

@@ -11,8 +11,8 @@ namespace CreateImdbNfoFiles
 			{
 				Console.WriteLine();
 				Console.WriteLine();
-				Console.WriteLine("Error, a base directory must bespecified. Usage:");
-				Console.WriteLine("\tdotenet CreateImdbNfoFiles.dll <BaseDiectory>");
+				Console.WriteLine("Error, a base directory must be specified. Usage:");
+				Console.WriteLine("\tdotnet CreateImdbNfoFiles.dll <BaseDiectory>");
 				Console.WriteLine();
 				return 1;
 			}
